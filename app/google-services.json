@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "924250991593",
+    "project_id": "lakhdatar-30703",
+    "storage_bucket": "lakhdatar-30703.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924250991593:android:67a963b538ea83135f3978",
+        "android_client_info": {
+          "package_name": "com.neyena.lakhdatar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924250991593-s7afa3tbj5ab78q4380uiv9fei6es2nq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPuIVqtMvXelHltPplN7YZ74ouP40UPo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924250991593-s7afa3tbj5ab78q4380uiv9fei6es2nq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c30000"
+    tools:context="com.neyena.lakhdatar.Welcom">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp"
+        app:contentPadding="20dp"
+        app:cardBackgroundColor="@color/maroon"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="जय श्री श्याम !!"
+            android:textColor="#fff"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            />
+    </androidx.cardview.widget.CardView>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100sp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@raw/ksmain"
+        tools:ignore="ContentDescription,MissingConstraints" />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/rashicard"
+        android:layout_margin="10dp"
+        android:padding="16dp"
+        android:elevation="6dp"
+        android:layout_below="@+id/imageView"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="10dp"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/rashifal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="श्री श्याम दरबार"
+        android:textStyle="bold"
+        android:background="#fff"
+        android:textAlignment="center"
+        android:textColor="@color/maroon"
+        tools:ignore="HardcodedText" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cont_card"
+        android:layout_margin="10dp"
+        android:padding="16dp"
+        android:elevation="6dp"
+        android:layout_below="@+id/rashicard"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="10dp"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/contin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:text="आरती एवं स्तुति"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/maroon"
+        tools:ignore="HardcodedText" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tt_card"
+        android:layout_margin="10dp"
+        android:padding="16dp"
+        android:elevation="6dp"
+        android:layout_below="@+id/cont_card"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="10dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/tt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:text="समय सारणी"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/maroon"
+            tools:ignore="HardcodedText" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10dp"
+        android:padding="16dp"
+        android:elevation="6dp"
+        android:layout_below="@+id/tt_card"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="10dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/maroon"
+            android:text="Developed By: Ankit Gupta\nEmail: hiamved@gmail.com"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            tools:ignore="HardcodedText" />
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
